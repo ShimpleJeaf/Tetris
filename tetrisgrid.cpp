@@ -41,7 +41,7 @@ bool TetrisGrid::isBlock(Bulk bulk)
             continue;
         for (int j = 0; j < 4; j++) {
             int coltmp = col + j;
-            // ±ß½ç
+            // è¾¹ç•Œ
             if ((rowtmp >= rowCount() || coltmp < 0 || coltmp >= colCount())
                 && bulkPoint[i][j])
                 return true;
